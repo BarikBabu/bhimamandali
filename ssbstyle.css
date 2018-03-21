@@ -20,7 +20,7 @@ body, html {
   transform: translate(-50%, -50%);
   color: yellow;
   text-shadow: 2px 2px 2px black;
-  font-family: 'Sofia';
+  font-family: 'Caesar Dressing';font-size: 22px;
     -webkit-animation: mymove 2s; /* Chrome, Safari, Opera */
     animation: mymove 2s;
 
