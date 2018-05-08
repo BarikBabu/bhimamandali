@@ -6,17 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="shortcut icon" href="img/l1.png" type="image/x-icon" />
   <link rel="stylesheet" href="bhimamandali.css">
+  <link rel="stylesheet" href="css/animate.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href='https://fonts.googleapis.com/css?family=Atomic Age' rel='stylesheet'> <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Atomic Age' rel='stylesheet'> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>  
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 
-<nav class="navbar navbar-default navbar-fixed-top w3-animate-zoom">
+<nav class="navbar navbar-default navbar-fixed-top " data-aos="flip-right">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -24,9 +30,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand  bsc" href="index.html" style="font-family: 'Atomic Age';font-size:23px;">Bhima  Mandali</a>
+      <a class="navbar-brand " href="index.html" style="font-family: 'Atomic Age';font-size:23px;" data-aos="zoom-in">Bhima  Mandali</a>
     </div>
-    <div class="collapse navbar-collapse w3-animate-right" id="myNavbar">
+    <div class="collapse navbar-collapse " id="myNavbar">
       <ul class="nav navbar-nav navbar-right ">
         <li><a href="#myPage">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
@@ -38,197 +44,38 @@
 </nav>
 
 
-<div class="container w3-animate-bottom">   
-  <h2></h2>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/slide-3.jpg" alt="Los Angeles" style="width:100%;height:50%;">
-      </div>
-
-      <div class="item">
-        <img src="img/slide-2.jpg" alt="Chicago" style="width:100%;height:50%;">
-      </div>
-    
-      <div class="item">
-        <img src="img/slide-1.jpg" alt="New york" style="width:100%;height:50%;">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
 
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> welcome <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-<div id="bg" class="jumbotron jumbotron-fluid" style="background-color: #4D342D">
-  <div id="wel" class="container">
+<div id="bg" class="jumbotron jumbotron-fluid" style="background-color: #4D342D" data-aos="zoom-in">
+  <div id="wel" class="container ">
     <center>
-	<p class="lead w3-animate-left" style="color:#FFFFFF;">Welcome To</p>
-	<h1 class="display-4 w3-animate-zoom" style="color:#FFFFFF;font-weight:bold">ODISHA's</h1>
-    <p class="lead w3-animate-right" style="color:#FFFFFF;">Ancient Civilization</p></center>
+	<p class="lead" data-aos="zoom-in-up" style="color:#FFFFFF;">Welcome To</p>
+	<h1 class="display-4" data-aos="zoom-in"style="color:#FFFFFF;font-weight:bold">ODISHA's</h1>
+    <p class="lead"  data-aos="zoom-in-down" style="color:#FFFFFF;">Ancient Civilization</p></center>
   </div>
 </div>
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> about-us <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-<div class="container-fluid" style="padding-right:50px;padding-bottom:50px;padding-left:50px;">
+<div class="container-fluid" data-aos="zoom-in-up" style="padding-right:50px;padding-bottom:50px;padding-left:50px;">
 <div>
-    <center><h1><small>about</small> <span class="text slideanim" style="color:orange;text-shadow: 6px 6px 6px lightgrey; font-weight: bold;"  id="textShadow">Us</span> <small>?</small></h1></center> 
+    <center><h1 data-aos="flip-left"><small>about</small> <span class="text slideanim" style="color:orange;text-shadow: 6px 6px 6px lightgrey; font-weight: bold;"  id="textShadow">Us</span> <small>?</small></h1></center> 
 </div>
-<img  class="img-fluid  w3-animate-zoom" style="float:left;padding:20px;" src="img/intro-pic.png" alt="Odisha">
-</br><p><b id="imgshadow" >Bhima Mandali</b>  is a naturally enriched biodiverse destination situated in the Central Odisha.</br> It's also recognized as <b><i id="imgshadow">Bhima Gudi</i></b> by the locals.</br> The place is credited for having the foot prints of Ancient Civilization to this Modern Age.  </p>
-      </br>  <p>That's how it's also regarded for the initiation of Oldest Civilization of Central Odisha. The deep forest , flow of water , patches of sand at river beach & waterfall add charms to the glory of this spot.</p>
-        </br></br><p>The majestic beauty of Bhima Mandali have even captured the attention of some Foreign Tourists to here.Under the active guidence of Mr.Ramesh Prasad Swain this place is under the plannings for getting turned into an <b><i id="imgshadow">Ecotourism Spot</i></b></p>
+<img  class="img-fluid" data-aos="zoom-in" style="float:left;margin:10px;" src="img/intro-pic.png" alt="Odisha">
+</br><p data-aos="slide-up"><b id="imgshadow" >Bhima Mandali</b>  is a naturally enriched biodiverse destination situated in the Central Odisha.</br> It's also recognized as <b><i id="imgshadow">Bhima Gudi</i></b> by the locals.</br> The place is credited for having the foot prints of Ancient Civilization to this Modern Age.  </p>
+      </br>  <p data-aos="zoom-in">That's how it's also regarded for the initiation of Oldest Civilization of Central Odisha.</br>The deep forest , flow of water , patches of sand at river beach & waterfall add charms to the glory of this spot.</p>
+        </br></br><p data-aos="slide-down">The majestic beauty of Bhima Mandali have even captured the attention of some Foreign Tourists to here.Under the active guidence of Mr.Ramesh Prasad Swain this place is under the plannings for getting turned into an <b><i id="imgshadow">Ecotourism Spot</i></b></p>
 </div>
 		
-		
-<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> who-should <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -
-		
-<div style="background-color:lightgrey;">
-<div class="container-fluid" style="padding-right:50px;padding-top:50px;padding-bottom:50px;padding-left:50px;">
-<h1  align="left" ><small style="color: gray;">who should-</small> <span class="slideanim" style="color:white;text-shadow: 20px 20px 20px darkgrey; font-weight: bold;"  id="textShadow">visit Us</span> <small style="color:green;">?</small></h1>
-	</br></br>
 
-<div class="row">
-  <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs1.png" alt="Jane" style="width:100%">
-      <div class="container-fluid">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs2.png" alt="Mike" style="width:100%">
-      <div class="container-fluid">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-  <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs3.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-  <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs4.png" alt="Mike" style="width:100%">
-      <div class="container-fluid">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-  <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs5.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-    <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs6.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-    <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs7.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-    <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs8.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-    <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs9.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-    <div class="column" style=" float: left;width: 20%;margin-bottom: 16px;padding: 0 8px;">
-    <div class="card">
-      <img src="img/wsvs10.png" alt="John" style="width:100%">
-      <div class="container-fluid">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-      </div>
-    </div>
-  </div>
-</div>
-	
-</div>
-</div> -->
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> eco-tourism <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-<div style="background-color: lightblue;">
+<div style="background-color: lightblue;" data-aos="zoom-in">
 	 <div class="container-fluid" style="padding-right:50px;padding-top:50px;padding-bottom:50px;padding-left:50px;">
-	 <center><h1 ><small style="color:green;">Eco -</small> <span class="slideanim" style="color:white;text-shadow: 20px 20px 20px darkgrey; font-weight: bold;"  id="textShadow">Tourism</span> <small style="color:green;">!</small></h1></center> 
-	</br></br><p id="shadow" class="img-fluid" style="background-color:white;padding:20px;font-size:15px;"><b style="text-align: center;">ODISHA ECOTOURISM DEVELOPMENT BOARD (OEDB)</b></br>
+	 <center><h1 data-aos="flip-left"><small style="color:green;">Eco -</small> <span class="slideanim" style="color:white;text-shadow: 20px 20px 20px darkgrey; font-weight: bold;"  id="textShadow">Tourism</span> <small style="color:green;">!</small></h1></center> 
+	</br></br><p id="shadow" class="img-fluid" data-aos="zoom-in" style="background-color:white;padding:20px;font-size:15px;"><b style="text-align: center;">ODISHA ECOTOURISM DEVELOPMENT BOARD (OEDB)</b></br>
 Odisha Ecotourism Development Board is proposed to be the apex body in the state engaged in promotion of ecotourism and development of requisite system and standards for the same.
 </br></br>
 <b>CONSTITUTION</b></br>
@@ -246,7 +93,7 @@ Odisha Ecotourism Development Board is proposed to be the apex body in the state
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-NGO(1)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;9.CEO/Member Secratary</br></br>
 </p>
-<p  class="img-fluid" style="padding:10px;font-size:15px;"><b>FUNCTIONS</b></br>
+<p class="img-fluid" data-aos="slide-up" style="padding:10px;font-size:15px;"><b>FUNCTIONS</b></br>
 </br>i. Plan, develop and facilitate ecotourism projects comaptible with this policy.
 </br>ii.Identifying and establishing an Odisha brand with unique value of the State, through consensus building process involving all stake holders.
 </br>iii.Developing and enforcing standards and norms for promotion and implementation of ecotourism destinations based in specific carrying capacity studies conducted.
@@ -263,9 +110,19 @@ Odisha Ecotourism Development Board is proposed to be the apex body in the state
   <p class="m-0" style="color:#FFFFFF;">Developed by team <span><a href="https://snskrit.wordpress.com/" target="_blank" style="color:white;">SNSKRIT</a></span></p>
   <p class="m-0" style="color:#FFFFFF;">Bhima Mandali © 2018</p>
 </div>
-
-
 </div>
+ <script src='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js'></script>
+
+ <script>
+AOS.init({
+  duration: 1200,
+})
+ </script>
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
 </body>
 </html>
 
